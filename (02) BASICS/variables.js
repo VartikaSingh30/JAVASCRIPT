@@ -44,3 +44,27 @@ console.log(firstName, _score, $price);
 // let 1name = "Wrong";   ❌ Cannot start with number
 // let my-name = "Wrong"; ❌ Hyphen not allowed
 // let let = "Wrong";     ❌ Reserved keyword
+
+// ======================================
+// Scope Example
+// ======================================
+
+{
+    let blockScoped = "I exist only inside this block";
+    var functionScoped = "I exist outside block";
+    console.log(blockScoped);
+}
+
+// console.log(blockScoped); ❌ Error
+console.log(functionScoped);
+
+
+// ======================================
+// Hoisting Example
+// ======================================
+
+console.log(x); // undefined (var hoisted)
+var x = 10;
+
+// console.log(y); ❌ Cannot access before initialization
+let y = 20;
