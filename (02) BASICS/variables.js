@@ -101,18 +101,3 @@ console.log("After Swap:", a, b);
 // Key Differences
 // ======================================
 
-/*
-var:
-- Function scoped
-- Can redeclare
-- Can reassign
-
-let:
-- Block scoped
-- Cannot redeclare
-- Can reassign
-
-const:
-- Block scoped
-- Cannot redeclare
-- Cannot reassign
