@@ -84,11 +84,7 @@ console.log("Age:", studentAge);
 console.log("Course:", course);
 
 
-// Q2 Swap values
-let a = 5;
-let b = 10;
 
-console.log("Before Swap:", a, b);
 
 
 
