@@ -3,7 +3,7 @@
 console.log("Hello JavaScript");
 
 let studentName = "Vartika";
-let course = "javaScript";
+let course = "JavaScript";
 let age = 21;
 
 console.log(studentName);
