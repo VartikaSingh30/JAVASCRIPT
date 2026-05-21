@@ -2,7 +2,7 @@
 
 console.log("Hello JavaScript");
 
-let studentName = "Vartika";
+let studentName = "vartika";
 let course = "JavaScript";
 let age = 21;
 
